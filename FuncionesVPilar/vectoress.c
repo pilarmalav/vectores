@@ -64,6 +64,40 @@ void RotarIzquierda(int tam, int vector[]){
 }
 
 
+	void RotarDerecha(int tam, int vector[]) {
+		int aux=vector[tam-1];
+		int i;
+		for(i=tam-1;i>0;i--){
+			vector[i]=vector[i-1];
+		}
+		vector[0]=aux;
+		}
+
+
+	void BuscarElementoMayor(int tam, int vector[],int a){
+		int i,j;
+		for(i=0;i<tam;i++){
+			if(vector[i]>=a) {
+				break;
+			}
+		}
+		for(j=i; j<tam;j++) {
+			printf("%d ",vector[j]);
+		}
+	}
+
+	void SonParalelos(int tam, int vector1[], vector2[]){
+		int i;
+		int Paralelo= 1;
+		float factor= vector1[0]/vector2[0];
+		for(i=1;i<tam; i++)
+		{
+			if(vector1[i]/vector2[i]!=factor){
+				Paralelo=0;
+			}
+		}
+	}
+
 
 
 

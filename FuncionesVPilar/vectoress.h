@@ -27,6 +27,13 @@ void mostrarRealesEntre(int tam, float vector[], int a, int b);
 
 void RotarIzquierda(int tam, int vector[]);
 
+void RotarDerecha(int tam, int vector[]);
+
+
+void BuscarElementoMayor(int tam, int vector[],int a);
+//void VisualizarLosValores(int tam, float vector[]);
+
+int SonParalelos(int tam, int vector1[], vector2[]);
 
 
 
