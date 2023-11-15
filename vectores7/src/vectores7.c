@@ -35,5 +35,11 @@ int main(void) {
 		   printf("introduce los datos");
 		   PedirVector(tam,numero2);
 
+		   if(SonParalelos(tam,numero1, numero2) == 1)
+			   printf("son paralelos");
+
+		   if(SonParalelos(tam,numero1,numero2)!=1)
+			   printf("no son paralelos");
+
 	return EXIT_SUCCESS;
-}
+

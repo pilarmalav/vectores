@@ -86,7 +86,7 @@ void RotarIzquierda(int tam, int vector[]){
 		}
 	}
 
-	void SonParalelos(int tam, int vector1[], vector2[]){
+	int SonParalelos(int tam, int vector1[], vector2[]){
 		int i;
 		int Paralelo= 1;
 		float factor= vector1[0]/vector2[0];
@@ -96,6 +96,7 @@ void RotarIzquierda(int tam, int vector[]){
 				Paralelo=0;
 			}
 		}
+		return Paralelo;
 	}
 
 

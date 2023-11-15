@@ -33,7 +33,7 @@ void RotarDerecha(int tam, int vector[]);
 void BuscarElementoMayor(int tam, int vector[],int a);
 //void VisualizarLosValores(int tam, float vector[]);
 
-int SonParalelos(int tam, int vector1[], vector2[]);
+int SonParalelos(int tam, int vector1[], int vector2[]);
 
 
 
