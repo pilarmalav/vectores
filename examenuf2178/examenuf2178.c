@@ -19,7 +19,19 @@ void introducekvatios(int tam, double kw[]){
 void mostrar(int tam, double kw){
 		int i;
 		for(i=0;i<tam;i++){
-			printf("%d   ",kw[i]);
+			printf("%d",kw[i]);
 
 		}
 }
+
+
+void mediahora(int tam,int filas, int columnas,int hora, double matriz[][MAX]){
+	int i,j;
+		for(i=0; i<tam; i++)
+			for(j=1+1;j<tam;j++);
+
+			}
+
+
+
+
