@@ -86,7 +86,7 @@ void RotarIzquierda(int tam, int vector[]){
 		}
 	}
 
-	int SonParalelos(int tam, int vector1[], vector2[]){
+	int SonParalelos(int tam, int vector1[], int vector2[]){
 		int i;
 		int Paralelo= 1;
 		float factor= vector1[0]/vector2[0];
@@ -98,6 +98,69 @@ void RotarIzquierda(int tam, int vector[]){
 		}
 		return Paralelo;
 	}
+
+
+	int soncapicua(int tam, int vector[]){
+		int i,j=tam-1;
+
+		for(i=0;i<tam/2;i++)
+		{
+			if(vector[i]!=vector[j]){
+				return 0;
+			}
+			j--;
+		}
+		return 1;
+	}
+
+	int espalindromo(char cadena[]){
+		int i,j;
+		i=0;
+		j=strlen(cadena)-1;
+		while(i<j){
+		while(i<strlen(cadena)&&[i]==''){i++;}
+
+		}
+
+
+	void invertir(int tam, int vector[],int inversa){
+		int i;
+		int j;
+		for(i=0;i<tam;i++);
+		   inversa[tam-1-i]=vector[i];
+		}
+
+	void concatenar(int tam1, int tam2, int v1[], int v2[], int v3[] ){
+		int i;
+		for(i=0; i<tam1; i++);
+		v3[i]=v1[i];
+
+
+
+	}
+	void ordenarelvectordemenoramayor (int tam, int vector[]){
+		int i,j;
+		int menor;
+	    int postmenor;
+
+
+		for(i=0; i<tam; i++) {
+			menor=vector[i];
+			postmenor=i;
+			for(j=1+1;j<tam;j++);
+			if(vector[j]<menor) {
+				menor=vector[j];
+				postmenor=j;
+			}
+		}
+		if(i!=postmenor){
+			vector[postmenor]=vector[i];
+			vector[i]=menor;
+
+			}
+		}
+	}
+
 
 
 

@@ -35,6 +35,14 @@ void BuscarElementoMayor(int tam, int vector[],int a);
 
 int SonParalelos(int tam, int vector1[], int vector2[]);
 
+int soncapicua(int tam, int vector[]);
+void invertir(int tam, int vector[],int inv);
+
+void concatenar(int tam1, int tam2, int v1[], int v2[], int v3[] );
+
+void ordenarelvectordemenoramayor (int tam, int vector[]);
+
+
 
 
 

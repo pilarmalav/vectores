@@ -41,6 +41,10 @@ float numeros[MAX];
    fflush(stdout);
    scanf("%f",&num2);
 
+   printf("el vector es");
+   MostrarVectoreReales(tam,numeros);
+   puts("");
+
    mostrarRealesEntre(tam, numeros, num1, num2);
 
 
